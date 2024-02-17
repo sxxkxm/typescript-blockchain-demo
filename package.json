@@ -1,0 +1,18 @@
+{
+  "name": "typescript-blockchain-demo",
+  "version": "1.0.0",
+  "description": "The TypeScript Blockchain Demo project illustrates the implementation of a blockchain using TypeScript. This demo showcases the fundamental concepts of blockchain technology implemented with TypeScript's powerful features.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
