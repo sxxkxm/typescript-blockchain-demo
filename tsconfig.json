@@ -10,6 +10,7 @@
             "DOM",
         ],
         "strict": true,
-        "allowJs": true,
+        "esModuleInterop": true,
+        "module": "CommonJS"
     }
 }
